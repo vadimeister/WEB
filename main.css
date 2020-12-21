@@ -1,0 +1,162 @@
+
+body {
+    background: #ffffff;
+    margin: 0px;
+}
+
+.headerCategory {
+    font-size: 26px;
+    color: white;
+    padding-right: 76px;
+    text-decoration: none;
+}
+
+.footerAbout {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.aboutCompany {
+    height: 80px;
+    font-size: 64px;
+    color: rgba(16.37, 91.37, 37.37, 1);
+}
+
+.aboutCompanyInfo {
+    width: 271.35px;
+    height: 91px;
+    font-size: 26px;
+    font-weight: 300;
+    color: black;
+}
+
+.catalogUnit {
+    width: 275px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.catalogUnitBuyBtn {
+    width: 91px;
+    height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: rgba(16.37, 91.37, 37.37, 1);
+}
+
+.catalogUnitSize {
+    width: 173px;
+    height: 35px;
+    font-size: 26px;
+    color: rgba(79.69, 79.69, 79.69, 1);
+    margin-bottom: 18px;
+}
+
+.catalogUnitSizeChosenBtn {
+    width: 232px;
+    height: 45px;
+    background-color: rgba(241.19, 241.19, 241.19, 1);
+    border: 1px solid rgba(161.50, 161.50, 161.50, 1);
+    border-radius: 10px;
+}
+
+.catalogUnitName {
+    width: 275px;
+    height: 34px;
+    font-size: 30px;
+    color: rgba(16.37, 91.37, 37.37, 1);
+    font-family: Neucha;
+    margin-bottom: 0px;
+}
+
+.catalogUnitImage {
+    width: 275px;
+    height: 325px;
+    object-fit: cover;
+}
+
+.catalogUnitPrice {
+    height: 36px;
+    font-size: 27px;
+    font-weight: 700;
+    color: #0F441E;
+    margin-top: 4.5px;
+    margin-bottom: 31px;
+}
+
+.aboutInfo {
+    font-family: Neucha;
+    width: 275px;
+    margin-right: 80px;
+}
+
+.transportUnit {
+    width: 275px;
+    height: 630px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.transportUnitInfo {
+    height: 36px;
+    font-size: 27px;
+    font-weight: 400;
+    color: #0F441E;
+    margin-top: 4.5px;
+    margin-bottom: 31px;
+}
+
+.transportUnitOrderBtn {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgba(16.37, 91.37, 37.37, 1);
+}
+.transportUnitName {
+    width: 275px;
+    height: 34px;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    font-family: Neucha;
+}
+
+.transportUnitImage {
+}
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+#map {
+    height: 100%;
+}
+
+.cover {
+    object-fit: cover;
+    width: 275px;
+    height: 325px;
+}
